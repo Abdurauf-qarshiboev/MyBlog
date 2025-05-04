@@ -1,0 +1,45 @@
+@import '@/styles/colors/colors.scss';
+.signup {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  width: 760px;
+  height: 95%;
+  overflow-y: scroll;
+  .title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+}
+.haveAccount {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  &.redtext {
+    color: rgba(255, 0, 0, 0.7);
+  }
+
+  .thenlogin {
+    font-weight: 600;
+    color: $dodgeblue;
+    &:hover {
+      color: lighten($dodgeblue, 30%);
+    }
+  }
+}
+.avatarUploader {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.submit-btn {
+  width: 100%;
+  margin: 16px auto 0px;
+  padding: 18px 8px;
+  font-size: 16px;
+}

@@ -1,0 +1,69 @@
+@import '@/styles/colors/colors.scss';
+aside{
+  width: 250px;
+}
+.el {
+  &-aside {
+    background-color: $dodgeblue;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    .logo {
+      color: #fff;
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: bold;
+      margin-bottom: 26px;
+    }
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      flex: 1;
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        padding: 10px 0 10px 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 12px;
+        &.active {
+          background-color: rgba(255, 255, 255, 0.8);
+          color: $dodgeblue;
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+          }
+        }
+        svg {
+          width: 20px;
+          height: 20px;
+          margin-bottom: 2px;
+        }
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+        &.settings {
+          margin-top: auto;
+          background-color: rgba(0, 0, 0, 0.2);
+          color: #fff;
+          &.active {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            &:hover {
+              background-color: rgba(0, 0, 0, 0.6);
+            }
+          }
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+  }
+}
