@@ -47,9 +47,10 @@ MyBlog/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── pages/
+│   ├── views/
 │   ├── router/
 │   ├── store/
+│   ├── App.vue
 │   └── main.js
 ├── public/
 ├── .gitignore
