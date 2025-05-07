@@ -42,6 +42,7 @@ npm run build
 
 ```
 ## 📁 Folder Structure
+```
 MyBlog/
 ├── src/
 │   ├── assets/
@@ -53,3 +54,4 @@ MyBlog/
 ├── public/
 ├── .gitignore
 └── README.md
+```
